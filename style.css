@@ -1,0 +1,58 @@
+.myfooter {
+    padding-top: 20px;
+    background:  #000080; 
+    /* needs to be changed */
+    color: #fff;
+}
+
+.myemail {
+    font-size: 14px;
+}
+
+.rowheader {
+    font-weight: bold;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.rowheader::after {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    top: 65%;
+    background-color: rgba(255 137 3 / 97%);
+    content: "";
+    height: 4px !important;
+    width: 40%;
+    display: block;
+}
+
+.rowheader,
+.rowheader:hover,
+.rowheader:focus,
+.rowheader:active {
+  text-decoration: none;
+}
+
+.mylink::before {
+    content:"";
+    width:8px;
+    height:8px;
+    /* border-radius:50%; */
+    /* background: #b83b3b; */
+    display:inline-block;
+    background-color: rgb(255 137 3 / 97%);;
+    margin-right: 5px;
+}
+.linebreak {
+    padding: 0;
+    margin: 0!important;    
+}
+
+.logolink {
+    margin-left: 115px;
+}
